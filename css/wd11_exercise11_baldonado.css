@@ -1,0 +1,121 @@
+body,
+.navbar {
+  background-color: #141414;
+  color: white;
+}
+.nav-link,
+.navbar-brand {
+  color: white !important;
+}
+.nav-link .active {
+  color: yellow;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 600px;
+}
+
+.thumbnail .carousel-item img {
+  height: 200px;
+  width: 100%;
+}
+
+.card-body {
+  color: black;
+}
+
+.thumbnail-show > img {
+  width: 100%;
+  height: 200px;
+}
+
+.thumbnail-show:hover {
+  transform: scale(1.2);
+  transition: 0.5s ease-in-out;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.thumbnail-hidden {
+  visibility: hidden;
+}
+
+.thumbnail-visible {
+  visibility: visible;
+}
+
+.button-circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 30px;
+}
+
+.thumbnail-description > h5 {
+  color: #198754;
+}
+
+.accordion-body > img {
+  width: 150px;
+  height: 100px;
+}
+
+.accordion .accordion-item {
+  background-color: #141414 !important;
+  color: white;
+}
+
+.thumbnail-redirection,
+.thumbnail-redirection:hover,
+.thumbnail-redirection:focus,
+.thumbnail-redirection:active {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+/* bootstrap icon */
+.icons i {
+  font-size: 35px;
+  color: white;
+  margin: 3px;
+  align-items: center;
+}
+
+.icons i:hover {
+  color: yellow;
+}
+
+.icons {
+  font-size: 18px;
+  margin: 15px;
+  align-items: right;
+}
+
+.icons,
+a {
+  font-size: 18px;
+  margin: 15px;
+  align-items: right;
+  color: white;
+}
+
+.icons,
+a:hover {
+  font-size: 18px;
+  margin: 15px;
+  align-items: right;
+  color: yellow;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-color: white;
+  color: white !important;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    width: 100%;
+    height: 250px;
+  }
+}
