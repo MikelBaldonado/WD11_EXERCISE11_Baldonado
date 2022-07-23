@@ -100,8 +100,7 @@ a {
   color: white;
 }
 
-.icons,
-a:hover {
+.icons a:hover {
   font-size: 18px;
   margin: 15px;
   align-items: right;
