@@ -25,6 +25,7 @@ body,
   color: black;
 }
 
+/* tv shows effect */
 .thumbnail-show > img {
   width: 100%;
   height: 200px;
@@ -33,7 +34,7 @@ body,
 .thumbnail-show:hover {
   transform: scale(1.2);
   transition: 0.5s ease-in-out;
-  z-index: 2;
+  z-index: 1;
   cursor: pointer;
 }
 
@@ -55,22 +56,22 @@ body,
   color: #198754;
 }
 
-.accordion-body > img {
-  width: 150px;
-  height: 100px;
-}
-
-.accordion .accordion-item {
-  background-color: #141414 !important;
-  color: white;
-}
-
 .thumbnail-redirection,
 .thumbnail-redirection:hover,
 .thumbnail-redirection:focus,
 .thumbnail-redirection:active {
   list-style: none;
   text-decoration: none;
+  color: white;
+}
+
+.accordion-body > img {
+  width: 100px;
+  height: 150px;
+}
+
+.accordion .accordion-item {
+  background-color: #141414 !important;
   color: white;
 }
 
@@ -117,4 +118,14 @@ a {
     width: 100%;
     height: 250px;
   }
+}
+
+.AddRecentEffect:hover {
+  transform: scale(1.5, 1.5);
+  transition: 1.5s;
+}
+
+.MovieCardEffects:hover {
+  transform: scale(1.1, 1.1);
+  transition: 1s;
 }
